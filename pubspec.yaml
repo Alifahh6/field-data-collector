@@ -1,0 +1,60 @@
+name: field_data_collector
+description: Aplikasi dokumentasi bukti pengantaran surat pajak daerah (SPPT PBB & SKPD) - Bapenda Kota Surabaya.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Database & penyimpanan lokal
+  sqflite: ^2.4.1
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  shared_preferences: ^2.3.3
+
+  # Lokasi, kamera, peta
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  camera: ^0.11.0+2
+  image: ^4.3.0
+  image_picker: ^1.1.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # Tampilan
+  google_fonts: ^6.2.1
+  fl_chart: ^0.69.0
+  intl: '>=0.19.0 <1.0.0'
+
+  # Ekspor & berbagi
+  archive: ^3.6.1
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  share_plus: ^10.1.4
+  http: ^1.2.2
+  gal: ^2.3.1
+  file_picker: ^8.1.2
+  url_launcher: ^6.3.1
+
+  # Keamanan
+  local_auth: ^2.3.0
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
