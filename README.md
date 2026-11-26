@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Field Data Collector (Flutter, Android)
 
 ## Cara menjalankan di VS Code
@@ -26,3 +27,6 @@ Internet dipakai hanya untuk nama jalan (reverse geocoding) dan gambar peta di h
 - services/export_service.dart: `kolomExcel` agar urutan/nama kolom sama persis dengan template sistem resmi Bapenda.
 - Logo PDF saat ini berupa lingkaran "SBY"; ganti dengan logo resmi (pw.MemoryImage) bila ada.
 - Sinkronisasi cloud belum ada; kolom `tersinkron` dan `server_id` di SQLite sudah disiapkan.
+=======
+# field-data-collector
+>>>>>>> 6a991a4bfb21988c68ea7f68d15d858eed29aa6d
