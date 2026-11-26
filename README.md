@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Field Data Collector (Flutter, Android)
 
 ## Cara menjalankan di VS Code
